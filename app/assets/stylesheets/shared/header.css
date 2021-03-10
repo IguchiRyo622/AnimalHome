@@ -48,3 +48,19 @@
   color: black;
   text-decoration: none;
 }
+
+/* サブメニュー */
+.sub-nav{
+  background-color: #99FFFF;
+}
+.sub-lists{
+  align-items: flex-end;
+  display: flex;
+  font-weight: bold;
+  list-style: none;
+}
+.lists{
+  color: black;
+  margin: 5px 5vw;
+  text-decoration: none;
+}
