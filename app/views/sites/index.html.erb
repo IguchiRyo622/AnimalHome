@@ -1,4 +1,17 @@
-<div class="wrapper">
-  <%= render "shared/header" %>
-  <%= render "shared/footer" %>
-</div>
+<%= render "shared/header" %>
+  <div class="wrapper">
+    <div class="service-title">
+      こんにちは、AnimalHomeへようこそ!<br>
+      これからペットを持つ方やペットを飼っている方の情報交換の場所になれば嬉しいです。
+    </div>
+    <%# <%= link_to image_tag("#", class:"image"), "#" %>
+    <div class='ad-title'>
+      <ul class='ad-lists'>
+        <li><%= link_to '里親', "#", class: "menu" %></li>
+        <li><%= link_to 'ブログ', "#", class: "menu" %></li>
+        <li><%= link_to 'インフォメーション', "#", class: "menu" %></li>
+        <li><%= link_to '動物の病気・しつけについて', "#", class: "menu" %></li>
+      </ul>
+  </div>
+  </div>
+<%= render "shared/footer" %>
