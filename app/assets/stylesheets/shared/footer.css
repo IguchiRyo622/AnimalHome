@@ -1,0 +1,29 @@
+* {
+  box-sizing: border-box;
+}
+/* フッター全体 */
+footer{
+  width: 100vw;
+  padding: 1vh 0;
+  position: absolute;
+  text-align: center;
+  bottom: 0;
+}
+.top-page-footer{
+  height: 5vh;
+  width: 100%;
+  background-color: skyblue;
+  opacity: 0.8;
+  bottom: 0;
+  position: relative;
+}
+.footer-top{
+  margin-right: 20px;
+  text-align: right;
+}
+.mail{
+  color: aliceblue;
+}
+.twitter{
+  color: aliceblue;
+}
